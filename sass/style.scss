@@ -194,57 +194,30 @@ video {
     margin: 20px auto;
 }
 
-h4 {
+.services h4,
+.gallery-content h4 {
     color: $dark-background-font;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.column p {
+.column p,
+.layer p {
     color: $dark-background-font;
-}
-
-/*.services .fa {
-    border: 4px solid $fa;
-    border-radius: 50%;
-    padding: 10px;   
-    width: 100px;
-    height: 100px;
-    line-height: 75px;
-    color: $fa;
-    font-size: 50px;
-    margin-bottom: 15px;
-}
-
-h4 {
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.gallery h4,
-.about-us h4 {
-    margin: 0;
-}
-
-.about-us {
-    background-color: $neutral;
+    padding: 15px;
 }
 
 .gallery-content {
-    padding-top: 30px;
+    padding: 15px;
 }
 
-.gallery-description {
-    padding: 10px 0;
-    background-color: $neutral;
-}
 
 .gallery-inside {
     height: 250px;
     position: relative;
 }
 
-.gallery img {
+.gallery-inside img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -252,14 +225,9 @@ h4 {
 
 .layer {
     div {
-        border: 2px solid $gallery-color;
-        text-transform: uppercase;
-        color: $gallery-color;
         display: none;
-        font-weight: bold;
         text-align: center;
         margin: 0 auto;
-        width: 100px;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
@@ -285,6 +253,7 @@ h4 {
 	display: block;    
 }
 
+/*
 .about-us h4 {
     margin-top: 15px;
 }
