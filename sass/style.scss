@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 
 $background-color: #F7F7F7;
 $nav_background: #000000;
 $dark-background-font: #FFFFFF;
+$logo-font: 'Berkshire Swash', cursive;
+$logo-color: #B88A56;
 
 $fonts: 'Open Sans', sans-serif;
 $gallery-color: #B49C76;
@@ -25,14 +28,11 @@ nav {
 }
 
 nav {
-    ul {
-        margin: 0;
-    }
+    text-align: center;
     li {
         display: inline-block;
         text-decoration: none;
-        float: right;
-        padding: 10px;
+        padding: 25px 10px;
     }
     a {
         color: $dark-background-font;
@@ -40,9 +40,30 @@ nav {
         font-weight: bold;
         line-height: 50px;
     }
-    img {
-        margin-top: 15px;
-        position: absolute;
+    a:hover {
+        border-bottom: 5px solid $logo-color;
+        padding-bottom: 45px;
+        text-decoration: none;
+        color: $dark-background-font;
+    }
+    p {
+        font-family: $logo-font;
+        color: $logo-color;
+        font-weight: bold;
+        font-size: 60px;
+        text-transform: uppercase;
+        padding: 0;
+        margin: -15px 0;;
+    }
+    p:last-child {
+        font-size: 12px;
+    }
+    .logo {
+        width: 80px;
+        margin: 20px 0;
+        text-align: center;
+        float: left;
+        padding-bottom: 10px;
     }
 }
 

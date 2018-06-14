@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #F7F7F7;
@@ -9,15 +10,14 @@ nav {
   position: relative;
 }
 
-nav ul {
-  margin: 0;
+nav {
+  text-align: center;
 }
 
 nav li {
   display: inline-block;
   text-decoration: none;
-  float: right;
-  padding: 10px;
+  padding: 25px 10px;
 }
 
 nav a {
@@ -27,9 +27,33 @@ nav a {
   line-height: 50px;
 }
 
-nav img {
-  margin-top: 15px;
-  position: absolute;
+nav a:hover {
+  border-bottom: 5px solid #B88A56;
+  padding-bottom: 45px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+nav p {
+  font-family: "Berkshire Swash", cursive;
+  color: #B88A56;
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: -15px 0;
+}
+
+nav p:last-child {
+  font-size: 12px;
+}
+
+nav .logo {
+  width: 80px;
+  margin: 20px 0;
+  text-align: center;
+  float: left;
+  padding-bottom: 10px;
 }
 
 header {
