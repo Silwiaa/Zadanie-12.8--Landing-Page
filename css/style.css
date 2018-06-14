@@ -57,10 +57,10 @@ nav .logo {
 }
 
 header {
-  background-image: url(https://images.pexels.com/photos/226003/pexels-photo-226003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/900106/pexels-photo-900106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   object-fit: fill;
   text-align: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .header-p {
