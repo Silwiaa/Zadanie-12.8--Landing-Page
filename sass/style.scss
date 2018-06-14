@@ -168,6 +168,42 @@ video {
     box-shadow: 6px 6px 15px;
 }
 
+.services{
+    background-color: $nav_background;
+}
+
+.services .h2-class h2 {
+    color: $dark-background-font
+}
+
+.column {
+    text-align: center;
+    padding: 10px;
+    border-left: 1px solid $p-color;
+    height: 210px;
+}
+
+.last-column {
+    border-right: 1px solid $p-color;
+}
+
+.fa {
+    font-size: 60px;
+    color: $logo-color;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h4 {
+    color: $dark-background-font;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.column p {
+    color: $dark-background-font;
+}
+
 /*.services .fa {
     border: 4px solid $fa;
     border-radius: 50%;
