@@ -71,33 +71,49 @@ header {
     background-image: url(https://images.pexels.com/photos/900106/pexels-photo-900106.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     object-fit: fill;
     text-align: center;
-    height: 80vh;
+    height: 85vh;
+    position: relative;
 }
 
-.header-p {
-    margin-top: 15vh;
+header .container {
+    padding: 0;
+}
+
+.header-filter {
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-left: -90px;
+    padding-top: 20vh;
+}
+
+.header-filter p {
+    color: $dark-background-font;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-filter p:first-child,
+.header-filter p:nth-child(even){
+    font-size: 74px;
+    margin: 0;
+}
+
+.header-filter p:nth-child(even) {
+    color: $logo-color;
+    line-height: 50px;
+}
+    
+.header-filter .number {
+    font-size: 26px;
+    margin-top: 20px
 }
 
 header button {
     margin-top: 30px;
-}
-
-.header-p p {
-    color: $dark-background-font;
-    padding: 10px;
-}
-
-.header-p p:first-child {
-    text-transform: capitalize;
-    font-size: 46px;
-    font-style: italic;
-    font-family: 'Noticia Text', serif;
-}
-
-.header-p p:nth-child(even) {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 74px;
+    background-color: $logo-color;
+    border-radius: 15px;
 }
 
 .gallery, 
