@@ -6,6 +6,7 @@ $nav_background: #000000;
 $dark-background-font: #FFFFFF;
 $logo-font: 'Berkshire Swash', cursive;
 $logo-color: #B88A56;
+$p-color: #646464;
 
 $fonts: 'Open Sans', sans-serif;
 $gallery-color: #B49C76;
@@ -110,10 +111,18 @@ header .container {
     margin-top: 20px
 }
 
-header button {
-    margin-top: 30px;
+header button,
+.about-us-p button {
     background-color: $logo-color;
     border-radius: 15px;
+    margin: 30px auto 60px auto;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    border: none;
+    color: $dark-background-font;
 }
 
 .dot {
@@ -130,20 +139,6 @@ header button {
     background-color: $logo-color;
 }
 
-.gallery, 
-.about-us,
-.services, 
-.team {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.container-fluid,
-.media .row {
-    max-width: 950px;
-    margin: 0 auto;
-}
-    
 row::before,
 row::after {
     content: "";
@@ -154,36 +149,26 @@ row::after {
 h2 {
     text-transform: uppercase;
     font-weight: bold;
+    color: $nav_background;
 }
 
-.services {
-    background-color: $neutral;
-}
-
-.services .h2-class {
-    margin-bottom: 100px;
-}
-
-.gallery .h2-class {
-    margin-bottom: 30px;
-}
-
-.services p,
-.about-us p,
-.team p,
-footer p {
-    font-size: $smaller-font;
-    color: $smaller-color;
-}
-
-span,
 .h2-class p {
     font-size: $smaller-font;
     color: $smaller-color;
-    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
 }
 
-.services .fa {
+.about-us-p {
+    color: $p-color;
+}
+
+video {
+    box-shadow: 6px 6px 15px;
+}
+
+/*.services .fa {
     border: 4px solid $fa;
     border-radius: 50%;
     padding: 10px;   
@@ -400,7 +385,7 @@ footer div {
 @media (max-width: 768px) {
     /* For tablets and smartphones: */
     
-    nav ul li {
+ /*   nav ul li {
         display: block;
         float: none;
         text-align: center;
@@ -431,5 +416,5 @@ footer div {
         display: none;
     }
 }
-
+*/
 
