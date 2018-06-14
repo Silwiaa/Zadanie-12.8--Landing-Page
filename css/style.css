@@ -105,6 +105,20 @@ header button {
   border-radius: 15px;
 }
 
+.dot {
+  display: inline-block;
+  padding: 5px;
+  margin: 3px;
+  border: 2px solid #B88A56;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.dots div:first-child {
+  background-color: #B88A56;
+}
+
 .gallery,
 .about-us,
 .services,
